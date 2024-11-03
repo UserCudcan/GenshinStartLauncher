@@ -1,0 +1,41 @@
+1.文件1：https://archive.org/download/yuanshen_beta_1.4.50/yuanshen_beta_1.4.50.zip
+  文件2：https://archive.org/download/game_1.4.50_1.4.51_diff_DR9eYm8O/game_1.4.50_1.4.51      _diff_DR9eYm8O.zip
+
+   下载16进制查看器
+
+16进制查看器：
+ https://mh-nexus.de/en/downloads.php?product=HxD20
+
+2.下载二个文件
+   解压两个文件
+
+3.把2（game~~~~）内容复制到1（yuanshen~~~~）
+4.解压win_debug.zip内容到1（yuanshen~~~~~）
+5.把yuanshen.exe改成yuanshen1.exe（也可以删除）
+
+   把Windowsplayer.exe重命名为yuanshen.exe
+   
+6.YuanShen_Data/Native/UserAssembly.dll用16进制查看器
+点击搜索
+找到替换
+点击字节序列
+
+搜索为“48 8B 05 5B 9E C3 05 48 8B 88 A0 00 00 00 40 88 B1 50 01 00 00”
+替换为“C6 81 50 01 00 00 01 90 90 90 90 90 90 90 90 90 90 90 90 90 90”
+保存文件
+
+7.请在打开游戏之前断开您的互联网（非常重要）
+
+8.运行yuanshen.exe
+
+8.Let's Play
+
+(要用显示选服界面点击"go")
+
+（自选）9.把你的原神客户端创建快捷方式
+重命名成“原神”
+放到文件夹名是原神，用1.bat,2.bat
+
+   
+
+
